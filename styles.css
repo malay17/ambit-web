@@ -95,3 +95,70 @@ footer {
   background: #222;
   color: white;
 }
+/* Premium Contact Section */
+.contact-premium {
+  background: linear-gradient(135deg, #0b3d91, #021c3a);
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #cbd6f0;
+  margin-bottom: 40px;
+}
+
+/* Layout */
+.contact-wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Glass Cards */
+.contact-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 12px;
+  min-width: 260px;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Email Links */
+.contact-card a {
+  color: #00e0ff;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.contact-card a:hover {
+  color: #ffffff;
+}
+
+/* Address */
+.address-card {
+  margin-top: 50px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* Icons */
+.icon {
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
