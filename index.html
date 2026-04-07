@@ -6,90 +6,105 @@
   <title>Ambit Pharma Ltd</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body id="top">
+<body>
+
 
 <header>
   <div class="container nav">
     <h1 class="logo">Ambit Pharma Ltd</h1>
-    <nav>
-        <a href="#top">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+      <nav class="navbar">
+          <div class="container nav-container">
+              <h1 class="logo">Ambit Pharma Ltd</h1>
+              <div class="nav-links">
+                  <a href="#top">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+              </div>
+          </div>
+      </nav>
   </div>
 </header>
 
-<section class="hero">
-  <div class="overlay">
-    <h2>Innovating Healthcare Across Europe</h2>
-    <p>
-        Through a disciplined and partnership-driven approach, we aim to establish
-        Ambit Pharma Ltd as a trusted and reliable contributor within the UK and European
-        pharmaceutical landscape.
-    </p>
-    <a href="#contact" class="btn">Partner With Us</a>
-  </div>
+<section id="top" class="section hero">
+    <div class="container hero-content">
+        <h1>Ambit Pharma Ltd</h1>
+        <p>
+            Through a disciplined and partnership-driven approach, we aim to establish
+            Ambit Pharma Ltd as a trusted and reliable contributor within the UK and European
+            pharmaceutical landscape.
+        </p>
+        <a href="#contact" class="btn">Partner With Us</a>
+    </div>
 </section>
 
-<section id="about" class="section">
-  <div class="container">
-    <h2>About Us</h2>
-      <p>
-          Ambit Pharma Ltd is an emerging pharmaceutical company
-          headquartered in the United Kingdom, focused on delivering high-quality,
-          compliant and value-driven medicines across the UK and European markets.
-          Our mission is to contribute meaningfully to healthcare by improving access
-          to safe, effective, and affordable treatments.
-      </p>
-      <p>
-          The company is founded by a group of experienced pharmaceutical executives
-          with over 100 years of combined expertise across management, regulatory
-          affairs, commercial operations, legal, and other key functional areas of
-          the global pharmaceutical industry. This breadth of experience enables us
-          to operate with a strong understanding of international markets and
-          regulatory environments.
-      </p>
-      <p>
-          Ambit Pharma Ltd has established a strategic partnership with Athena
-          Pharmaceutiques SAS, a global organisation specialising in the development
-          of high-quality pharmaceutical products designed to improve patient
-          compliance, simplify administration, and enhance overall well-being. This
-          collaboration supports the introduction of innovative and competitively
-          priced products into the UK market.
-      </p>
-  </div>
+<section id="about" class="section about-premium">
+    <div class="container">
+
+        <h2 class="section-title">About Us</h2>
+        <p class="section-subtitle">
+            Ambit Pharma Ltd is an emerging pharmaceutical company committed to delivering high-quality, compliant, and value-driven medicines across the UK and European markets.
+        </p>
+
+        <div class="about-content">
+
+            <!-- Left Column: Main Text -->
+            <div class="about-text">
+                <p>
+                    Founded by a team of experienced pharmaceutical executives with over <strong>100 years of combined expertise</strong> in management, regulatory affairs, commercial operations, legal, and other key functions, Ambit Pharma Ltd operates with a strong understanding of international markets and regulatory environments.
+                </p>
+                <p>
+                    Our mission is to contribute meaningfully to healthcare by improving access to safe, effective, and affordable treatments. We strategically focus on niche areas with limited competition, delivering value-added medicines that address unmet medical needs while maintaining the highest standards of quality, safety, and compliance.
+                </p>
+                <p>
+                    In partnership with <strong>Athena Pharmaceutiques SAS</strong>, a global organization specializing in high-quality pharmaceutical products designed to improve patient compliance, simplify administration, and enhance overall well-being, we introduce innovative and competitively priced products into the UK market.
+                </p>
+            </div>
+
+            <!-- Right Column: Highlights / Stats -->
+            <div class="about-highlights">
+                <div class="highlight-card">
+                    <h3>Leadership Experience</h3>
+                    <p>Over 100 years of combined experience across pharma management, regulatory, sales, and legal functions</p>
+                </div>
+
+                <div class="highlight-card">
+                    <h3>Global Partnerships</h3>
+                    <p>Strategic collaboration with Athena Pharmaceutiques SAS to deliver patient-friendly, high-quality medicines</p>
+                </div>
+
+                <div class="highlight-card">
+                    <h3>Niche Focus</h3>
+                    <p>Targeting under-served therapeutic areas with value-added medicines to address unmet medical needs</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </section>
 
 <section id="contact" class="section dark contact-premium">
     <div class="container">
         <h2 class="section-title">Get in Touch</h2>
         <p class="section-subtitle">
-            We welcome partnerships, regulatory discussions and business enquiries.
+            We welcome partnerships, regulatory discussions, and general enquiries.
         </p>
 
         <div class="contact-wrapper">
-
             <div class="contact-card">
                 <h3>Business Development</h3>
-                <p class="email">
-                    business@ambitpharma.co.uk
-                </p>
+                <p class="email">business@ambitpharma.co.uk</p>
             </div>
 
             <div class="contact-card">
                 <h3>Regulatory Enquiries</h3>
-                <p class="email">
-                    regulatory@ambitpharma.co.uk
-                </p>
+                <p class="email">regulatory@ambitpharma.co.uk</p>
             </div>
 
             <div class="contact-card">
                 <h3>General Enquiries</h3>
-                <p class="email">
-                    admin@ambitpharma.co.uk
-                </p>
+                <p class="email">admin@ambitpharma.co.uk</p>
             </div>
-
         </div>
 
         <div class="address-card">
@@ -100,12 +115,13 @@
                 United Kingdom, LU1 3BE
             </p>
         </div>
-
     </div>
 </section>
 
-<footer>
-  <p>© 2026 Ambit Pharma Ltd. All rights reserved.</p>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Ambit Pharma Ltd. All rights reserved.</p>
+    </div>
 </footer>
 
 <script src="script.js"></script>
